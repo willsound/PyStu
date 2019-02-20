@@ -10,8 +10,8 @@ def baidu_tieba(url, begin_page, end_page):
         with open(sName,'wb') as file:  
             file.write(m)  
         file.close()  
-if __name__ == "__main__":  
+if __name__ == "__main__":
     url = "http://tieba.baidu.com/f?kw=mp3&ie=utf-8&pn="
-    begin_page = 1  
-    end_page = 3  
-    baidu_tieba(url, begin_page, end_page)  
+    begin_page = 1
+    end_page = 3
+    baidu_tieba(url, begin_page, end_page)
