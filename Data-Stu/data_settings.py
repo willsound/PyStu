@@ -8,3 +8,13 @@ class Settings():
         self.font_title = FontProperties(fname=self.font_file_path, size=14)
         self.font_xlable = FontProperties(fname=self.font_file_path, size=10)
         self.font_ylable = FontProperties(fname=self.font_file_path, size=10)
+
+
+class MysqlSettings():
+    def __init__(self):
+        self.conn_host = '127.0.0.1'
+        self.conn_user = 'root'
+        self.conn_password = 'acdeff3811'
+        self.conn_port = '3306'
+        self.conn_database = 'python_data'
+        self.conn_charset = 'gb2312'
