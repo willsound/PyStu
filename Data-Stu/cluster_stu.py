@@ -10,9 +10,9 @@ from sklearn.cluster import KMeans  # 导入sklearn聚类模块
 from sklearn import metrics  # 导入sklearn效果评估模块
 from data_settings import DataSettings
 
+cluster_ds=DataSettings()
+raw_data = np.loadtxt(cluster_ds.data_cluster_file_path)  # 导入数据文件
 
-# 数据准备
-raw_data = np.loadtxt('cluster.txt')  # 导入数据文件
 X = raw_data[:, :-1]  # 分割要聚类的数据
 y_true = raw_data[:, -1]
 
