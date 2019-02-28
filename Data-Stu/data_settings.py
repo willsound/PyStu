@@ -5,6 +5,7 @@ class DataSettings():
     def __init__(self):
         self.data_file_path = r'Data\data.txt'
         self.data_cluster_file_path = r'Data\cluster.txt'
+        self.data_regression_file_path = r'Data\regression.txt'
         self.font_file_path = r'Resources\msyh.ttc'
         self.font_title = FontProperties(fname=self.font_file_path, size=14)
         self.font_xlable = FontProperties(fname=self.font_file_path, size=10)
