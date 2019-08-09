@@ -7,7 +7,6 @@
       <sourceFolder url="file://$MODULE_DIR$/Data-Stu" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Python-Learn" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Python-DataAnalysisBase" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Paper-DataAnalysis" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />

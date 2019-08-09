@@ -2,23 +2,25 @@ import numpy as np
 
 #  1D Array
 a = np.array([0, 1, 2, 3, 4])
-b = np.array((0, 1, 2, 3, 4))
-c = np.arange(5)
+b = np.array((0, 11, 23, 35, 46))
+c = np.arange(6)
 d = np.linspace(0, 2*np.pi, 5)
-print(a)
-print(b)
-print(c)
-print(d)
-print(a[3])
+i = 0
+md_a = np.array([
+                 [11, 12, 13, 14, 15,],
+                 [16, 17, 18, 19, 20],
+                 [21, 22, 23, 24, 25],
+                 [26, 27, 28 ,29, 30],
+                 [31, 32, 33, 34, 35],
+                 np.arange(5),
+                 b
+                ])
 
-# MD Array,
-md_a = np.array([[11, 12, 13, 14, 15],
-                            [16, 17, 18, 19, 20],
-                              [21, 22, 23, 24, 25],
-                             [26, 27, 28 ,29, 30],
-                            [31, 32, 33, 34, 35]])
-
-print(md_a[2, 4])  # >>>25
+while i <= 6 :
+    print(md_a[i,3])
+    i=i+1
+print(md_a.shape)
+print(md_a)
 
 # MD slicing
 print(md_a[0, 1:4])  # >>>[12 13 14]
